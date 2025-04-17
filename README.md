@@ -27,9 +27,9 @@ brew install cmake ninja gperf python3 python-tk ccache qemu dtc libmagic wget o
 
 ### Installation
 1. Clone the repo:
-	1. `west init -m <GIT_URL> copperhead_fsw`
+	1. `west init -m https://github.com/Purdue-Space-Program/r4_flight_software copperhead_fsw`
 2. Initialize Zephyr modules
-	1. `cd copperhead_fsw`/<REPO_NAME>
+	1. `cd copperhead_fsw`/r4_flight_software
 	2. `west update`
 3. Initialize UV environment
 	1. `uv sync`
